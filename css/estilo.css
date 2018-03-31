@@ -1,0 +1,102 @@
+/*Limpar formatações padrão*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color: #E6E6E6
+}
+
+h1{
+	color: #5FB404;
+}
+
+p{
+	padding: 0 8px 0 8px;
+}
+
+img{
+	float: left;
+	padding: 0 10px 0 10px;
+}
+
+div#cabecalho{
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #d8d8d8;
+	height: 45px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+div#conteudo{
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 55px auto 0 auto;
+	width: 720px;
+}
+
+h1#titulo{
+	padding: 10px 5px 0 5px;
+}
+
+#area{
+	width: 720px;
+	margin: 0 auto; /*auto centraliza*/
+}
+
+#logo{
+	float: left;
+}
+
+#menu{
+	float: right;
+	padding: 10px 0;
+}
+
+/*Formatação do Menu*/
+a{
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+a:link{
+	color: #848484;
+}
+
+a:visited{
+	color: #848484;
+}
+
+a:hover{
+	color: #FFFFFF;
+	background-color: #5FB404;
+}	
+
+a:active{
+	color: #535353;
+}
+
+/*Classes*/
+.preto{
+	color: #000000;
+}
+
+.data-postagem{
+	font-size: 14px;
+	border-bottom: 1px solid #F4F4F4;
+	display: block;
+	padding-bottom: 10px;
+	padding: 0 8px 0 8px;
+	margin-bottom: 10px;
+}
+
+.postado{
+	border-left: 5px solid #d8d8d8;
+	padding-left: 5px;
+	display: block;
+	margin-top: 10px;
+}
